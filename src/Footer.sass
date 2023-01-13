@@ -1,0 +1,52 @@
+.Footer
+  padding-left: 10px
+  padding-right: 10px
+  .ul1
+    font-size: 24px
+    display: block
+    list-style-type: none
+    padding: 0
+    margin: 0
+    @media (min-width: 768px)
+      font-size: 24px
+      display: flex
+      justify-content: space-between
+      list-style-type: none
+      padding: 0
+      margin: 0
+    li
+      padding: 0
+      margin: 0
+      margin-bottom: 10px
+      @media (min-width: 768px)
+        margin-bottom: 0
+    .ul2
+      font-size: 16px
+      list-style-type: none
+      padding: 0
+      margin: 0
+      max-height: 0px
+      overflow: hidden
+      @media (min-width: 768px)
+        display: initial
+        max-height: initial
+        overflow: initial
+      li
+        padding: 0
+        margin: 0
+        padding-left: 10px
+        a
+          display: block
+          text-decoration: none
+          padding: 2px
+          border-radius: 5px
+          @media (min-width: 768px)
+            display: inline-block
+        a:hover
+          background-color: #fff
+    .ul2Show
+      max-height: 500px
+      transition: max-height 0.5s ease-in
+      @media (min-width: 768px)
+        max-height: initial
+        transition: none
