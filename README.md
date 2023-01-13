@@ -1,6 +1,6 @@
 # footer 的 RWD 範例
 
-#footer #Accordion #rwd
+#react #footer #Accordion #rwd
 
 1. footer 內容來源為 fakeData.js，模擬之後從 server 中取得資料
 2. 大尺寸裝置下 footer 主選項橫向排列
